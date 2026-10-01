@@ -1,0 +1,6 @@
+let array = [3, 7, -2, 5, 8, 1, 2, 5, 6, -4, 12, 25];
+let dec = array.sort((a, b) => b - a);
+console.log(dec);
+let cres = array.sort((a, b) => a - b);
+console.log(cres);
+
